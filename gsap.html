@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="height: 8000px; overflow: scroll;">
+    <button id="action">CLick</button>
+     <svg id="demo" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500">
+            <path id="master" d="M5.00038 2C-10.4999 77 55.0011 178 245.001 114C421 54.7162 559.5 -6 695.5 84.5C831.5 175 842.5 376.5 775.5 493C717.642 593.603 602.167 625.667 575.5 627.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="partner" d="M5.00038 2C-10.4999 77 55.0011 178 245.001 114C421 54.7162 559.5 -6 695.5 84.5C831.5 175 842.5 376.5 775.5 493C717.642 593.603 602.167 625.667 575.5 627.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect width="1000" height="500" fill="#262626" rx="0" />
+            <use xlink:href="#master" opacity="0" />
+            <use xlink:href="#partner" opacity="1" x="-11.5" y="20.5"/>
+            <text id="mainText" fill="#fff" textLength="500" y="25">
+              <textPath id="masterTextPath" xlink:href="#master" textLength="500" startOffset="30%">Mua sản phẩm và đặt biệt</textPath>
+            </text>
+        </svg>
+    <div class="container" id="line-about">
+        <!-- <defs/> -->
+        <xml version="1.0" encoding="UTF-8">
+        <svg  width="1029" height="3946" viewBox="0 0 1029 3946" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+            <path id="l_cp" d="M150.151 2C118.856 74.7392 108.538 215.955 317.619 198.903C578.97 177.589 737.811 186.216 750.498 263.354C760.648 325.064 743.356 371.497 730.5 383" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="line1" d="M150.151 2C118.856 74.7392 108.538 215.955 317.619 198.903C578.97 177.589 737.811 186.216 750.498 263.354C760.648 325.064 743.356 371.497 730.5 383" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+
+            <path id="line4" d="M718 1433.5C638.5 1453.5 491.8 1414.5 437 1392.5C368.5 1365 29.5 1300.5 5.5 1649.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="line3" d="M216 798C200.5 873 266.001 974 456.001 910C632 850.716 770.5 790 906.5 880.5C1042.5 971 1053.5 1172.5 986.5 1289C928.642 1389.6 813.167 1421.67 786.5 1423.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="line2" d="M701 425.5C687.5 446.5 619.5 502.5 430.5 525.5C257.968 546.496 222.167 689.5 221 744.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="line6" d="M505.999 2406C470.499 2419.17 407.399 2455.8 438.999 2497C478.499 2548.5 668 2473.5 628.5 2604C596.9 2708.4 385.333 2795.5 268 2824.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="line5" d="M2.99952 1727.5C-2.33382 1803 125.999 2042.5 379 1993C608 1948.2 759.499 2043.5 759.499 2174C759.499 2280.95 626.499 2351.5 570.499 2366.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+            
+
+
+
+            <!-- <path id="master" d="M5.00038 2C-10.4999 77 55.0011 178 245.001 114C421 54.7162 559.5 -6 695.5 84.5C831.5 175 842.5 376.5 775.5 493C717.642 593.603 602.167 625.667 575.5 627.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path id="partner" d="M5.00038 2C-10.4999 77 55.0011 178 245.001 114C421 54.7162 559.5 -6 695.5 84.5C831.5 175 842.5 376.5 775.5 493C717.642 593.603 602.167 625.667 575.5 627.5" stroke="#E2E1E8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/> -->
+            <rect width="1000" height="500" fill="#262626" rx="0" />
+            <use xlink:href="#l_cp" opacity="1"  x="-11.5" y="20.5"/>
+            <use xlink:href="#line1" opacity="0"/>
+
+            <text id="mainText" fill="#fff" textLength="500" y="25">
+              <textPath id="text_1" xlink:href="#line1" textLength="500" startOffset="30%">Mua sản phẩm và đặt biệt</textPath>
+            </text>
+        </svg>
+        </xml>
+    </div> 
+    <script src="jquery-3.4.1.min.js"></script>    
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <script src="greensock/gsap.min.js"></script>
+    <script src="greensock/ScrollMagic.min.js"></script>
+    <script src="greensock/animation.gsap.js"></script>
+    <script src="greensock/debug.addIndicators.js"></script>
+    <script src="gsap.js"></script>
+
+</body>
+</html>
